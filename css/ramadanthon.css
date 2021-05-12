@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'TBukra-Regular';
+  src: url('../fonts/alfont_com_AlFont_com_29ltbukraregular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'TBukra-Light';
+  src: url('../fonts/alfont_com_AlFont_com_29LT-Bukra-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'LBukra-Light';
+  src: url('../fonts/alfont_com_AlFont_com_29ltbukralight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'TBukra-Black';
+  src: url('../fonts/alfont_com_AlFont_com_29LT-Bukra-Black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Font-019';
+  src: url('../fonts/alfont_com_AlFont_com_019.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font-4C7';
+  src: url('../fonts/alfont_com_AlFont_com_4_C7.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font-4C9';
+  src: url('../fonts/alfont_com_AlFont_com_4_C9.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font-1';
+  src: url('../fonts/alfont_com_---1.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Font-2';
+  src: url('../fonts/alfont_com_--.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body ,input {
+  font-family: 'TBukra-Regular', 'Font-2';
+}
+
+h1, h2 {
+  font-family: 'Font-1', 'TBukra-Black', 'Font-4C9';
+  direction  : rtl;
+  text-align: center;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'TBukra-Light', 'LBukra-Light', 'Font-4C7', 'Almarai', sans-serif;
+  direction  : rtl;
+  text-align: center;
+}
+ 
+.header {
+  overflow: hidden;
+  background-color: #f1f1f100;
+  padding: 20px 10px;
+}
+  
+.header a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+  
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+  
+.header a:hover {
+  background-color: #4B0F8D;
+  color: #E64A28;
+}
+  
+.header a.active {
+  background-color: #4B0F8D;
+  color: white;
+}
+  
+.header-right {
+  float: right;
+}
+  
+@media screen and (max-width: 500px) {
+  .header a {
+     float: none;
+    display: block;
+    text-align: right;
+  }
+    
+  .header-right {
+    float: none;
+  }
+}
+
+/* Navigation */
+  
